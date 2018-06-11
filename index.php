@@ -1,2 +1,2 @@
-echo "hello world,travis aws key: $awskey , awssecret : $awssecret";
+echo "Testing environment ,travis aws key: $awskey , awssecret : $awssecret";
 
