@@ -1,1 +1,2 @@
-echo "hello world,travis";
+echo "hello world,travis aws key: $awskey , awssecret : $awssecret";
+
