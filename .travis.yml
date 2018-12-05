@@ -1,5 +1,9 @@
 language: php
 
+
+addons:
+  sonarqube: true
+
 php:
  - 7.0
 
