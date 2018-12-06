@@ -1,11 +1,6 @@
 dist: trusty
 sudo: false
 
-addons:
-  sonarqube: true
-  sonarcloud:
-    token:
-      secure: vQJo23DaX6ti0Tca3n3sfDR+cyOiVfSCvZmesBkM5j1hNxAJaayaAIESlr8TpP4KH6Q/QD/I7Ai+6QMLaN8902dM56CSfYsk08l/Bb6prprXLlWf04nzBLYLEYcYRjxS6A7kDifa+iDtDFnlY0RJv+6Hk2esRlMmK0mXm4KcQKgiVNGcmPMCK1kaReslw6Xj2wLj+gv8P/2w1xqWR1XE3EPuH2uK19xYDXwH6z5kQu7+ABm1qjaC3rE+WjtYk6JwmqjbXHI+ZWPBiQ3CZ6IKEmnATVN6ukD1Gb9M7agdxiwePpJzj+2TKlOmdDczjuhAiv5d2EyRkYISHfYLY0yYHD/oNgyWG+4r3i+40tX1KjDP20g2w6D1UVYg7JFzlMvq6ZVZ0IjET1hwNgn03Iq7vtCJBg4N4fqh+vEJNVvRqkNwfSjvEaCyvgdy9aHmEXBE2mQHtC/2px2/w4EeUCn4C2Jb5gY37CMCRuxA8zlfV2HulL5IoWyDt97D2jIH+WQuVxfj0BjOw06dkdUi+03IBSMd7ljzCs3NX/h0Ck7MjI2A5TTq7gmO0fl2BhJRJYXuVkW0JLaB2lvxNRXTF21cR/DE9lyosF8txxTCJjungxYQnF/pO2PWwBfM8iOBOd64MfmeUX/HyvIRUHew3XY3DWCLTJrAlYy4DqZlrjbby/c=
 
 
 before_script:
