@@ -13,12 +13,7 @@ before_script:
 - ls
 script:
 
-- sonar-scanner \
-  -Dsonar.projectKey=mesaputra10_travis \
-  -Dsonar.organization=mesaputra10-github \
-  -Dsonar.sources=. \
-  -Dsonar.host.url=https://sonarcloud.io \
-  -Dsonar.login=43617264e0341bacf81edf192ec4706f541d0d98
+- sonar-scanner  -Dsonar.projectKey=mesaputra10_travis  -Dsonar.organization=mesaputra10-github -Dsonar.sources=. -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=43617264e0341bacf81edf192ec4706f541d0d98
 
 env:
   global:
