@@ -1,9 +1,8 @@
 language: php
 addons:
-  sonarqube: 
+  sonarcloud: 
     branches:
      - master
-     - pr
   sonar:
     token:
       secure: EDJAWmsXWQcK+Z7ml8HT5InkIuAD3U/veC3M+2igYEmRPIIBt4Kc07oG90/CNtzlYNvxS0zqzILtGDB1M6+xmt3HV0lzY3/9leLDonxrXW2RcEWCeGJfrQnr2j8Kj3BOQcf4z/Fohhu+1T9fezVHPauZkVNzNPM0MEAU/oQpMoSEyA0eAocyasMYSy4SkWoBWYBYeJiuyctjlOs+nrxF+CJfzp2chRV6XvNL7JdjJlUyu1mZMjMXOrwdncZe/lDbRFRPMiUyU1Z3x35ZnR6B95BHibt8z1UUCnt49BlCvpIt2e9Co03cWUijHp+GFBAl33l8rlXnUqGcEPyT1I8DNr5u1qMsYsbNfSmp0TB6i2e65c/pybJPa6B7A3IBQFCAejE+MuNkpZx3BREGQ17HGYF2sCUVlI+MkSbG6iZ2F1aHDh+Md7vsqq2FV1PQaP9t5d1RN0hbavb5qMAME4kL0kOMK7xslkGNUVsfctLzzXE/E7kiAHsk6/dOaLfiQQUy1G8PsdCOmVqYFJWmS3Df4pPrkhfz/nksgdXTn4/fX8RG0VmyXDjbukjmfQUCcsPFqvUXh2elMlhuSK8C4sO241SHGrlEm5H8oGMyHlms+HYbSyqWrUNS8yY5gGQW3CjSA+h99jlWRbSqPaLrDHJF3Lvtx+cfC7nRikI2QcSmdug=
