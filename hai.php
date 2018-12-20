@@ -1,14 +1,1 @@
-<?php 
-echo "hia a";
-
-hi;
-
-
-hi;
-
-
-getData();
-
-test()
-
-?>
+<?php echo "hai"; ?>
