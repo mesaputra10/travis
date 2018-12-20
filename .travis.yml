@@ -9,7 +9,7 @@ php:
 before_script:
 - ls
 script:
-- sonar-scanner  
+- sonar-scanner   -Dsonar.host.url=http://54.255.213.201:9000
 
 env:
   global:
