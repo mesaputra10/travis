@@ -8,7 +8,8 @@ hi;
 asklklsk;
 sss
 
-getData();
+getData(); 
+getSatu();
 
 test()
 
