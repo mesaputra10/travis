@@ -2,15 +2,15 @@ language: php
 addons:
   sonarqube: true
   sonar:
+    branch: master
     token:
       secure: EDJAWmsXWQcK+Z7ml8HT5InkIuAD3U/veC3M+2igYEmRPIIBt4Kc07oG90/CNtzlYNvxS0zqzILtGDB1M6+xmt3HV0lzY3/9leLDonxrXW2RcEWCeGJfrQnr2j8Kj3BOQcf4z/Fohhu+1T9fezVHPauZkVNzNPM0MEAU/oQpMoSEyA0eAocyasMYSy4SkWoBWYBYeJiuyctjlOs+nrxF+CJfzp2chRV6XvNL7JdjJlUyu1mZMjMXOrwdncZe/lDbRFRPMiUyU1Z3x35ZnR6B95BHibt8z1UUCnt49BlCvpIt2e9Co03cWUijHp+GFBAl33l8rlXnUqGcEPyT1I8DNr5u1qMsYsbNfSmp0TB6i2e65c/pybJPa6B7A3IBQFCAejE+MuNkpZx3BREGQ17HGYF2sCUVlI+MkSbG6iZ2F1aHDh+Md7vsqq2FV1PQaP9t5d1RN0hbavb5qMAME4kL0kOMK7xslkGNUVsfctLzzXE/E7kiAHsk6/dOaLfiQQUy1G8PsdCOmVqYFJWmS3Df4pPrkhfz/nksgdXTn4/fX8RG0VmyXDjbukjmfQUCcsPFqvUXh2elMlhuSK8C4sO241SHGrlEm5H8oGMyHlms+HYbSyqWrUNS8yY5gGQW3CjSA+h99jlWRbSqPaLrDHJF3Lvtx+cfC7nRikI2QcSmdug=
 php:
 - 7.0
 before_script:
-
+- ls
 script:
-- sonar-scanner -Dsonar.projectKey=testing  -Dsonar.host.url=http://54.255.213.201:9000 -Dsonar.sources=.
- 
+- sonar-scanner -Dsonar.projectKey=testing  -Dsonar.host.url=http://54.255.213.201:9000 -Dsonar.sources=.  -Dsonar.login=$SONAR_TOKEN 
 env:
   global:
     secure: op8ezL3Di2331BvJOu7/cw08FEs7C9bLEyzR+R+78JTHywLSxgS5cpstfXEWuGa7hCHQPXYdkhDdFK4tr6ZuQe4dFPjF+A8AUWGvkCqA7Rfzdo09OYg6mZaKFejHSM3MZmsgM6wWkVf79CFon/6JyoomfxpCNTKH5MI7/XKz8IABMrL3LDVAGkzHPH6h9IUv9CV4qILp5SkTMsdLKVTIkUFKlgLjLRoXB/CKfZqHsCCsjnPmwWCow8mQG3FoMk6Glm+zVJ4sr9WRZvWLXDi7KVOtipwamJd3amKthQrJ97501+g1pLHaDrgo/MogiZRsDWR3WwlmyGLxnVJQJ8NueFvMW11m8IMbHcYZEKUdl5P0ookJDnmboTehVMnrV6mYHnh/c9kahVg3tmhQgBQzqmJC/73m6HYQe2DbUcfryFMp5Wr+CCRjsc3IQyHw1db7alXdkhECAipbaNNFsonOBT4Nlhs2KMTmHaKfnflUTmROTKUUVfl5X24zjpeNpcSuGSUPtDhguQtg31sumURFx4vUKPYXXRjbWOGxMSe0UFm+fJnoT1T2zW28z4pN237KQTuAKMruqimnnDDnULA9VGgByCoXw9/Yz/+y1/wPonq2gyvp5RYaRuNY4INtQn4i/YGYk/oV09q0VWpExmlyHUTmF6Dmw4kilI/18bmtiRc=
