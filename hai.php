@@ -1,1 +1,1 @@
-benar
+<?php echo "hai"; ?>
