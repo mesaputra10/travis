@@ -13,9 +13,7 @@ before_script:
 - ls
 script:
 
-- sonar-scanner -Dsonar.analysis.mode=preview \
-              -Dsonar.host.url=http://54.255.213.201:9000 \
-              -Dsonar.login=dcbcb1014f52a7be8561edacafe85e045eb6f65c
+- sonar-scanner -Dsonar.projectKey=testing  -Dsonar.host.url=http://54.255.213.201:9000 -Dsonar.sources=.  -Dsonar.login=$SONAR_TOKEN
 
 env:
   global:
