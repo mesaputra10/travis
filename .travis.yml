@@ -12,7 +12,7 @@ php:
 before_script:
 - ls
 script:
-- sonar-scanner -Dsonar.projectKey=testing  -Dsonar.host.url=http://54.255.213.201:9000 -Dsonar.sources=.  
+- sonar-scanner -Dsonar.projectKey=testing  -Dsonar.host.url=https://sonarqube.bhinneka.com -Dsonar.sources=.  
 env:
   global:
     secure: op8ezL3Di2331BvJOu7/cw08FEs7C9bLEyzR+R+78JTHywLSxgS5cpstfXEWuGa7hCHQPXYdkhDdFK4tr6ZuQe4dFPjF+A8AUWGvkCqA7Rfzdo09OYg6mZaKFejHSM3MZmsgM6wWkVf79CFon/6JyoomfxpCNTKH5MI7/XKz8IABMrL3LDVAGkzHPH6h9IUv9CV4qILp5SkTMsdLKVTIkUFKlgLjLRoXB/CKfZqHsCCsjnPmwWCow8mQG3FoMk6Glm+zVJ4sr9WRZvWLXDi7KVOtipwamJd3amKthQrJ97501+g1pLHaDrgo/MogiZRsDWR3WwlmyGLxnVJQJ8NueFvMW11m8IMbHcYZEKUdl5P0ookJDnmboTehVMnrV6mYHnh/c9kahVg3tmhQgBQzqmJC/73m6HYQe2DbUcfryFMp5Wr+CCRjsc3IQyHw1db7alXdkhECAipbaNNFsonOBT4Nlhs2KMTmHaKfnflUTmROTKUUVfl5X24zjpeNpcSuGSUPtDhguQtg31sumURFx4vUKPYXXRjbWOGxMSe0UFm+fJnoT1T2zW28z4pN237KQTuAKMruqimnnDDnULA9VGgByCoXw9/Yz/+y1/wPonq2gyvp5RYaRuNY4INtQn4i/YGYk/oV09q0VWpExmlyHUTmF6Dmw4kilI/18bmtiRc=
